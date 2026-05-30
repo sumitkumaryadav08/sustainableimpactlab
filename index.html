@@ -1,24 +1,274 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Sumit Kumar</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumit Kumar | AI, Innovation & Sustainability Transitions</title>
+  <meta name="description" content="Personal academic website of Sumit Kumar, PhD researcher at Monash University working on AI, energy transitions, innovation policy and sustainability transitions." />
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #222;
+      background: #fff;
+      line-height: 1.65;
+    }
+
+    a {
+      color: #2563a8;
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .site {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 42px 24px;
+      display: grid;
+      grid-template-columns: 290px 1fr;
+      gap: 60px;
+    }
+
+    .sidebar {
+      text-align: center;
+      padding-right: 34px;
+      border-right: 1px solid #e8e8e8;
+    }
+
+    .profile-photo {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #eeeeee;
+      margin-bottom: 22px;
+      border: 1px solid #dddddd;
+    }
+
+    .name {
+      font-size: 1.85rem;
+      font-weight: 700;
+      margin: 0 0 6px;
+      line-height: 1.2;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 18px;
+    }
+
+    .affiliation {
+      font-size: 0.95rem;
+      color: #555;
+      margin: 6px 0;
+    }
+
+    .links {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 0.95rem;
+    }
+
+    .main { max-width: 760px; }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      padding-bottom: 18px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #e8e8e8;
+      font-size: 0.95rem;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      margin: 0 0 20px;
+      line-height: 1.25;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 42px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    p { margin: 0 0 18px; }
+
+    .lead {
+      font-size: 1.12rem;
+      color: #333;
+      margin-bottom: 22px;
+    }
+
+    ul { padding-left: 22px; margin-top: 8px; }
+    li { margin-bottom: 8px; }
+
+    .item { margin-bottom: 18px; }
+
+    .item-title {
+      font-weight: 700;
+      color: #222;
+    }
+
+    .muted { color: #666; }
+
+    .notice {
+      background: #f7f7f7;
+      border: 1px solid #e6e6e6;
+      padding: 16px 18px;
+      border-radius: 10px;
+      margin: 24px 0;
+    }
+
+    .footer {
+      margin-top: 56px;
+      padding-top: 18px;
+      border-top: 1px solid #e8e8e8;
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    @media (max-width: 820px) {
+      .site {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 28px 20px;
+      }
+
+      .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #e8e8e8;
+        padding-right: 0;
+        padding-bottom: 30px;
+      }
+
+      nav { gap: 14px; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Sumit Kumar</h1>
+  <div class="site">
+    <aside class="sidebar">
+      <img src="profile.jpg" alt="Profile photo of Sumit Kumar" class="profile-photo" />
 
-  <h2>PhD Researcher | AI & Sustainability Transitions</h2>
+      <h1 class="name">Sumit Kumar</h1>
+      <div class="tagline">AI, Innovation & Sustainability Transitions</div>
 
-  <p>
-    Welcome to my personal website.
-  </p>
+      <div class="affiliation">PhD Researcher</div>
+      <div class="affiliation">Monash Sustainable Development Institute</div>
+      <div class="affiliation">Monash University</div>
+      <div class="affiliation">Melbourne, Australia</div>
 
-  <h3>Research Interests</h3>
+      <div class="links">
+        <a href="mailto:mailtosumithere@gmail.com">Email</a>
+        <a href="#">Google Scholar</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">ORCID</a>
+        <a href="#">Download CV</a>
+      </div>
+    </aside>
 
-  <ul>
-    <li>Artificial Intelligence and Energy Transitions</li>
-    <li>Sustainability Transitions</li>
-    <li>Innovation Policy</li>
-    <li>Patent Analytics</li>
-  </ul>
+    <main class="main">
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <section id="about">
+        <h1>About me</h1>
+
+        <p class="lead">
+          I am a doctoral researcher studying how artificial intelligence is shaping energy transitions across diverse geographies.
+        </p>
+
+        <p>
+          I am based at the Monash Sustainable Development Institute, Monash University. My PhD research examines the role of artificial intelligence in energy transitions, with a focus on innovation directionality, geography of innovation, actor configurations, and socio-technical change.
+        </p>
+
+        <p>
+          My work combines sustainability transitions, innovation studies, patent analytics, and public policy perspectives to understand how emerging technologies influence low-carbon transition pathways. I am particularly interested in the “Twin Transition” at the intersection of digitalisation and sustainability.
+        </p>
+
+        <p>
+          Beyond my PhD, my broader professional experience spans sustainability, public policy, evidence reviews, research operations, digital health, innovation policy, and development research.
+        </p>
+
+        <div class="notice">
+          <strong>Sustainable Impact Lab</strong> is the personal research website of Sumit Kumar, featuring academic work, publications, projects, and reflections on AI, innovation, and sustainability transitions.
+        </div>
+      </section>
+
+      <section id="research">
+        <h2>Research interests</h2>
+        <ul>
+          <li>Artificial intelligence and energy transitions</li>
+          <li>Directionality of innovation</li>
+          <li>Sustainability transitions and socio-technical change</li>
+          <li>Geography of innovation and innovation systems</li>
+          <li>Patent analytics and technology mapping</li>
+          <li>Digitalisation, climate governance, and public policy</li>
+          <li>Transitions in the Global South</li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>Selected publications & working papers</h2>
+
+        <div class="item">
+          <div class="item-title">Uncovering the Directionality of Innovation in Artificial Intelligence for Energy Transitions</div>
+          <div class="muted">Manuscript under review.</div>
+        </div>
+
+        <div class="item">
+          <div class="item-title">Artificial Intelligence and the Twin Transition</div>
+          <div class="muted">Research in progress on AI, energy systems, patent landscapes, and global innovation trajectories.</div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="item">
+          <div class="item-title">AI–Energy Patent Landscape</div>
+          <p>Mapping global innovation trajectories in artificial intelligence for low-carbon energy transitions using patent data and innovation studies approaches.</p>
+        </div>
+
+        <div class="item">
+          <div class="item-title">Net Zero Precincts Living Lab</div>
+          <p>Supporting action-oriented experimentation and reflexive learning for sustainability transitions in urban and institutional settings.</p>
+        </div>
+
+        <div class="item">
+          <div class="item-title">Transitions in the Global South</div>
+          <p>Contributing to conversations on more inclusive, geographically diverse, and reflexive sustainability transitions research.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          I welcome conversations on research collaboration, policy engagement, speaking opportunities, and academic exchange related to AI, innovation, energy transitions, and sustainability transitions.
+        </p>
+        <p>Email: <a href="mailto:mailtosumithere@gmail.com">mailtosumithere@gmail.com</a></p>
+      </section>
+
+      <div class="footer">
+        © 2026 Sumit Kumar. Built with GitHub Pages.
+      </div>
+    </main>
+  </div>
 </body>
 </html>
